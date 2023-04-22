@@ -20,3 +20,6 @@ The data was collected from Kaggle and contains transactions made by credit card
 ### Dealing with Imbalance
 
 In logistic regression, refers to a situation where the distribution of the outcome variable (i.e., the binary response variable) is not balanced, meaning that one class has a much larger amount of osevations than the other. We see this in our dataset wherby the amount of fraudulent cases is only 492 out of a total of 284,807 transactions. Class imbalance can be problematic in logistic regression because the algorithm tends to favor the majority class and may not perform well in predicting the minority class. This is because the logistic regression model is designed to minimize the overall error rate, which may result in a high accuracy for the majority class, but poor performance for the minority class.
+
+
+To address the issue of imbalance in our dataset we are going to use a method could undersampling. Undersampling is a technique used in machine learning to address the problem of class imbalance in datasets. It involves reducing the number of observations in the majority class so that it is more balanced with the number of observations in the minority class. In our case a new data set was created containing equal distributions of fruadulent and legit transactions to improve the performance of the machine learning model.
