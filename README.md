@@ -27,3 +27,6 @@ In logistic regression, this refers to a situation where the distribution of the
 
 
 To address the issue of imbalance in our dataset we are going to use a method could undersampling. Undersampling is a technique used in machine learning to address the problem of class imbalance in datasets. It involves reducing the number of observations in the majority class so that it is more balanced with the number of observations in the minority class. In our case a new data set was created containing equal distributions of fruadulent and legit transactions to improve the performance of the machine learning model.
+
+<img src="./Screenshots/Undersampling.png" alt="My Image" width="800" height="400">
+<img src="./Screenshots/Undersampling2.png" alt="My Image" width="800" height="400">
