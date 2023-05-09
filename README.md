@@ -35,7 +35,7 @@ To address the issue of imbalance in our dataset we are going to use a method co
 
 For this project logistic regression was the algorithm used to predict whether a transaction was fraudulent or not. Logistic regression is a statistical method used to model the probability of a binary outcome (i.e., a yes/no or true/false decision).
 
-<img src="./Screenshots/Creating_and_training_model .png" alt="My Image" width="1100" height="175">
+<img src="./Screenshots/Creating_and_training_model .png" alt="My Image" width="800" height="300">
 
 
 
