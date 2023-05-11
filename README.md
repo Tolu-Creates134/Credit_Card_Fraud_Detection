@@ -31,12 +31,19 @@ To address the issue of imbalance in our dataset we are going to use a method co
 <img src="./Screenshots/Undersampling.png" alt="My Image" width="1100" height="175">
 <img src="./Screenshots/Undersampling2.png" alt="My Image" width="1100" height="175">
 
-# Creating Machine Learning Model
+# Machine Learning Model
 
 For this project logistic regression was the algorithm used to predict whether a transaction was fraudulent or not. Logistic regression is a statistical method used to model the probability of a binary outcome (i.e., a yes/no or true/false decision).
 
 <img src="./Screenshots/Creating_and_training_model .png" alt="My Image" width="800" height="300">
 
+As you can see in the creation of the training and tests sets the 'stratify' parameter was included in the function. The stratify parameter in sci-kit learns 'train_test_split()' function is used to ensure that the proportion of classes in the target variable is preserved in both the training and testing datasets. By setting the stratify parameter to the target variable in train_test_split(), the function will ensure that the split is stratified based on the target variable. This means that the proportion of classes in the target variable will be roughly the same in both the training and testing sets, helping to ensure that the models built on these datasets are not biased towards one particular class.
+
+So in the context of this project, it is important to ensure the target variable is distributed in a representative way, this done to prevent a scenario whereby most of the fraudelent cases appear in the test set and there are not as many in the training set. Furtheremore, by taking this action we are allowing the model to perform as best as possible. 
+
+### Model Evaluation
+
+<img src="./Screenshots/model_evaluation.png" alt="My Image" width="800" height="300">
 
 
 
