@@ -39,11 +39,17 @@ For this project logistic regression was the algorithm used to predict whether a
 
 As you can see in the creation of the training and tests sets the 'stratify' parameter was included in the function. The stratify parameter in sci-kit learns 'train_test_split()' function is used to ensure that the proportion of classes in the target variable is preserved in both the training and testing datasets. By setting the stratify parameter to the target variable in train_test_split(), the function will ensure that the split is stratified based on the target variable. This means that the proportion of classes in the target variable will be roughly the same in both the training and testing sets, helping to ensure that the models built on these datasets are not biased towards one particular class.
 
-So in the context of this project, it is important to ensure the target variable is distributed in a representative way, this done to prevent a scenario whereby most of the fraudelent cases appear in the test set and there are not as many in the training set. Furtheremore, by taking this action we are allowing the model to perform as best as possible. 
+So in the context of this project, it is important to ensure the target variable is distributed in a representative way, this done to prevent a scenario whereby most of the fraudelent cases appear in the test set and there are not as many in the training set. Furtheremore, by taking this action I was able to gurantee that the model is peerforming as best as possible. 
 
 ### Model Evaluation
 
+As you can see below the accuracy metric was used to evaluate the performance of the model. From the results below it was evident that the model was succesful in predicting whether a transcation was fraudulent or not, picking up high accuracy scores for both the training and test data sets. So I was confident that the logistic regression model was not overfitting to the training data. 
+
 <img src="./Screenshots/model_evaluation.png" alt="My Image" width="800" height="300">
+
+# Summary and Critque
+
+
 
 
 
