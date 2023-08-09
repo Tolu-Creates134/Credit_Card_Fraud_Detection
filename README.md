@@ -49,6 +49,8 @@ As you can see below the accuracy metric was used to evaluate the performance of
 
 # Summary and Critque
 
+Overall, the aim of the project was meant, which was to create a model that can accurately identify fraudulent transcations. Although, an improvement that could be made for this model is by using a larger data set or maybe exploring other classification algorithms beyond logistic regression, such as Random Forest, Gradient Boosting, or Support Vector Machines, to determine if they provide better results. 
+
 
 
 
